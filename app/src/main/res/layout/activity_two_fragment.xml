@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+    <!-- tamaño de fragment 30% -->
+    <FrameLayout
+        android:id="@+id/fragmentContainerA"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6"
+        android:background="#9e9e9e" />
+
+    <!-- tamaño de fragment 70% -->
+    <FrameLayout
+        android:id="@+id/fragmentContainerB"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.4"
+        android:background="@color/white" />
+</LinearLayout>
