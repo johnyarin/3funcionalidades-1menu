@@ -12,34 +12,6 @@ Cada ejercicio demuestra diferentes conceptos y componentes fundamentales de And
 - **Offline First**: Imágenes locales sin dependencia de internet
 - **Compatibilidad**: Emulador y dispositivos reales
 
-## 📁 Estructura del Proyecto
-app/
-├── java/com/example/tarea2/
-│ ├── MainActivity.kt   # Actividad principal con 3 botones
-│ ├── ejercicio1/       # Conversor de monedas
-│ │ └──CurrencyConverterActivity.kt
-│ ├── ejercicio2/       # Lista de restaurantes
-│ │ ├── WebListActivity.kt
-│ │ ├── WebsiteAdapter.kt
-│ │ ├── Website.kt
-│ │ └── WebsiteProvider.kt
-│ └── ejercicio3/       # 2 Fragments para tablet
-│ ├── TwoFragmentActivity.kt
-│ ├── Website.kt
-│ ├── WebsiteDetailFragment.kt
-│ ├── WebsiteListFragment.kt
-│ ├── WebsiteProvider.kt.kt
-│ └── WebsiteAdapter.kt
-├── res/
-│ ├── drawable/         # Imágenes locales
-│ │ ├── el_pimpi.jpg
-│ │ ├── la_cosmopolita.jpg
-│ │ ├── casa_lola.jpg
-│ │ ├── uvedoble.jpg
-│ │ └── casa_guardia.jpg
-│ └── layout/           # Layouts XML
-└── manifests/AndroidManifest.xml
-
 <img width="295" height="911" alt="image" src="https://github.com/user-attachments/assets/dd5941bd-8996-4ba3-a649-38c09599bf7b" />
 
 
