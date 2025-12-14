@@ -67,8 +67,8 @@ Cada ejercicio demuestra diferentes conceptos y componentes fundamentales de And
 ## Ejercicio 3 - Fragments para Tablet
 📱 Vista Tablet
 - Layout horizontal dividido en dos fragments lado a lado
-- Fragment Izquierdo (40%) → Lista solo con nombres de restaurantes
-- Fragment Derecho (60%) → Detalles completos del seleccionado
+- Fragment Izquierdo → Lista solo con nombres de restaurantes
+- Fragment Derecho → Detalles completos del seleccionado
 
 🔄 Funcionamiento
 - Selección en lista izquierda → Actualiza automáticamente detalles derecha
