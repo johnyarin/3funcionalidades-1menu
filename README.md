@@ -3,6 +3,8 @@
 ## 📋 Descripción del Proyecto
 Proyecto en Android Studio que contiene tres ejercicios independientes desarrollados en Kotlin.
 Cada ejercicio demuestra diferentes conceptos y componentes fundamentales de Android.
+La actividad principal contendrá 3 botones que llevarán cada una a su ejercicio respectivo.
+Solo en el caso 3, hay que cambiar de vista a horizontal porque está diseñada para ello. Mientras que las otras 2 funcionan en vista vertical.
 
 ## 🎯 Características Técnicas
 - **Lenguaje**: Kotlin
