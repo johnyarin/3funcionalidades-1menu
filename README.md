@@ -27,13 +27,11 @@ Solo en el caso 3, hay que cambiar de vista a horizontal porque está diseñada 
 - Sin botón CONVERTIR - La conversión se realiza en tiempo real:
 - Escribes en Euros → Se calculan Dólares automáticamente
 - Escribes en Dólares → Se calculan Euros automáticamente
-- Cambias la tasa → Se recalcula todo automáticamente
 
 🛡️ Protección contra Errores
 - **Campos vacíos**: No causa errores, limpia el campo opuesto
 - **Letras**: Se ignoran automáticamente
-- **Tasa inválida**: Usa 1.08 por defecto
-- **Evita loops**: Variable isConverting previene conversiones cíclicas
+- **Tasa de cambio**: Dolar a Euro y viceversa
 
 🏗️ Tecnologías Usadas
 - ConstraintLayout para diseño responsivo
@@ -45,17 +43,16 @@ Solo en el caso 3, hay que cambiar de vista a horizontal porque está diseñada 
 
 📱 Vista Principal
 - RecyclerView con CardView personalizados mostrando restaurantes de Málaga
-- Cada card muestra: Nombre, Enlace web y Foto del restaurante
+- Cada card muestra: Nombre, , descripcion breve, enlace web y logo
 - Botón flotante para añadir nuevos restaurantes
 
 🔄 Funcionamiento Interactivo
-- Click en restaurante → Muestra AlertDialog con descripción completa y email
-- Swipe derecha → Elimina restaurante con Snackbar para deshacer
+- Click en restaurante → Muestra AlertDialog con descripción completa y email/contacto
+- Swipe derecha → Elimina restaurante y Snackbar para deshacer
 - Botón "Añadir Web" → Abre diálogo para agregar nuevo restaurante
 
 🎨 Características de Diseño
 - Imágenes locales → Cargadas desde res/drawable/ (sin internet)
-- Cards redondeados → Bordes de 16dp para mejor apariencia
 - Feedback visual → Efectos al seleccionar y eliminar
 - Offline-first → Todo funciona sin conexión
 
@@ -67,21 +64,21 @@ Solo en el caso 3, hay que cambiar de vista a horizontal porque está diseñada 
 - View Binding → Acceso tipo-safe a vistas
 
 ## Ejercicio 3 - Fragments para Tablet
+
 📱 Vista Tablet
 - Layout horizontal dividido en dos fragments lado a lado
 - Fragment Izquierdo → Lista solo con nombres de restaurantes
 - Fragment Derecho → Detalles completos del seleccionado
 
 🔄 Funcionamiento
-- Selección en lista izquierda → Actualiza automáticamente detalles derecha
+- Selección en lista izquierda → Actualiza automáticamente detalles en la derecha
 - Panel superior → Muestra nombre seleccionado en grande
-- Panel inferior → Muestra todos los datos: foto, enlace, descripción, email
+- Panel inferior → Muestra todos los datos: foto, enlace, descripción, email/contacto
 
 🎨 Características Tablet
 - Diseño horizontal → Optimizado para pantallas grandes
-- Comunicación Fragments → A través de Activity (patrón recomendado)
-- Imágenes completas → Usa centerInside para no cortar fotos
-- Estado inicial → Mensaje "Selecciona un restaurante"
+- Comunicación Fragments → A través de Activity
+- Imágenes completas → Usamos fitCenter
 
 🦺 Arquitectura
 - 2 Fragments independientes → WebsiteListFragment + WebsiteDetailFragment
@@ -93,7 +90,6 @@ Solo en el caso 3, hay que cambiar de vista a horizontal porque está diseñada 
 - Fragments + FragmentManager para UI modular
 - Layout weights → División de pantalla
 - RecyclerView en Fragment → Adaptado para contexto de fragment
-- Manejo de lifecycle → Correcta inicialización y destrucción
 
 
 
