@@ -1,4 +1,4 @@
-# 📱 Tarea 2 PMDM 
+# Tarea 2 PMDM 
 
 ## 📋 Descripción del Proyecto
 Proyecto en Android Studio que contiene tres ejercicios independientes desarrollados en Kotlin.
@@ -46,12 +46,12 @@ Cada ejercicio demuestra diferentes conceptos y componentes fundamentales de And
 - Cada card muestra: Nombre, Enlace web y Foto del restaurante
 - Botón flotante para añadir nuevos restaurantes
 
-🎯 Funcionamiento Interactivo
+🔄 Funcionamiento Interactivo
 - Click en restaurante → Muestra AlertDialog con descripción completa y email
 - Swipe derecha → Elimina restaurante con Snackbar para deshacer
 - Botón "Añadir Web" → Abre diálogo para agregar nuevo restaurante
 
-🛡️ Características de Diseño
+🎨 Características de Diseño
 - Imágenes locales → Cargadas desde res/drawable/ (sin internet)
 - Cards redondeados → Bordes de 16dp para mejor apariencia
 - Feedback visual → Efectos al seleccionar y eliminar
@@ -65,7 +65,7 @@ Cada ejercicio demuestra diferentes conceptos y componentes fundamentales de And
 - View Binding → Acceso tipo-safe a vistas
 
 ## Ejercicio 3 - Fragments para Tablet
-🖥️ Vista Tablet
+📱 Vista Tablet
 - Layout horizontal dividido en dos fragments lado a lado
 - Fragment Izquierdo (40%) → Lista solo con nombres de restaurantes
 - Fragment Derecho (60%) → Detalles completos del seleccionado
@@ -81,13 +81,13 @@ Cada ejercicio demuestra diferentes conceptos y componentes fundamentales de And
 - Imágenes completas → Usa centerInside para no cortar fotos
 - Estado inicial → Mensaje "Selecciona un restaurante"
 
-🏗️ Arquitectura
+🦺 Arquitectura
 - 2 Fragments independientes → WebsiteListFragment + WebsiteDetailFragment
 - Comunicación vía interfaz → Fragment → Activity → Fragment
 - Reutilización de datos → Mismos modelos y provider del Ejercicio 2
 - View Binding en Fragments → Con limpieza en onDestroyView()
 
-🔧 Tecnologías Usadas
+🏗️ Tecnologías Usadas
 - Fragments + FragmentManager para UI modular
 - Layout weights → División de pantalla
 - RecyclerView en Fragment → Adaptado para contexto de fragment
