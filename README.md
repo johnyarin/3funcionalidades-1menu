@@ -15,6 +15,8 @@ Solo en el caso 3, hay que cambiar de vista a horizontal porque está diseñada 
 
 <img width="295" height="911" alt="image" src="https://github.com/user-attachments/assets/dd5941bd-8996-4ba3-a649-38c09599bf7b" />
 
+<img width="361" height="322" alt="image" src="https://github.com/user-attachments/assets/1ab5fd2a-d3a3-46ec-83e0-2fc134caa14e" />
+
 
 ## Ejercicio 1 - Conversor de Moneda (EUR ↔ USD)
 
@@ -39,6 +41,9 @@ Solo en el caso 3, hay que cambiar de vista a horizontal porque está diseñada 
 - TextWatcher para detección de cambios en tiempo real
 - Validación con try-catch para entradas inválidas
 
+  <img width="373" height="351" alt="image" src="https://github.com/user-attachments/assets/5c114507-67a8-44d6-a3f3-e3a508f4ef59" />
+
+
 ## Ejercicio 2 - Lista de Items
 
 📱 Vista Principal
@@ -62,6 +67,9 @@ Solo en el caso 3, hay que cambiar de vista a horizontal porque está diseñada 
 - AlertDialog → Mostrar detalles sin cambiar pantalla
 - Snackbar → Confirmación con acción de deshacer
 - View Binding → Acceso tipo-safe a vistas
+
+  <img width="394" height="881" alt="image" src="https://github.com/user-attachments/assets/89e8cbde-3d21-47ae-a47b-19e946442d32" />
+
 
 ## Ejercicio 3 - Fragments para Tablet
 
@@ -91,7 +99,7 @@ Solo en el caso 3, hay que cambiar de vista a horizontal porque está diseñada 
 - Layout weights → División de pantalla
 - RecyclerView en Fragment → Adaptado para contexto de fragment
 
-
+<img width="1066" height="666" alt="image" src="https://github.com/user-attachments/assets/93234b77-0c65-4b65-9898-bd2a0bd42569" />
 
 
 
