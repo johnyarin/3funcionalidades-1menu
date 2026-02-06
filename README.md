@@ -13,9 +13,9 @@ Solo en el caso 3, hay que cambiar de vista a horizontal porque está diseñada 
 - **Offline First**: Imágenes locales sin dependencia de internet
 - **Compatibilidad**: Emulador y dispositivos reales
 
-<img width="295" height="911" alt="image" src="https://github.com/user-attachments/assets/dd5941bd-8996-4ba3-a649-38c09599bf7b" />
+<img width="295" height="911" alt="image" src="https://github.com/user-attachments/assets/dd5941bd-8996-4ba3-a649-38c09599bf7b" />  
 
-<img width="361" height="322" alt="image" src="https://github.com/user-attachments/assets/1ab5fd2a-d3a3-46ec-83e0-2fc134caa14e" />
+<img width="361" height="322" alt="image" src="https://github.com/user-attachments/assets/1ab5fd2a-d3a3-46ec-83e0-2fc134caa14e" />  
 
 
 ## Ejercicio 1 - Conversor de Moneda (EUR ↔ USD)
