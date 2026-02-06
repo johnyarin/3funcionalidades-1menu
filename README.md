@@ -7,7 +7,7 @@ La actividad principal contendrá 3 botones que llevarán cada una a su ejercici
 Solo en el caso 3, hay que cambiar de vista a horizontal porque está diseñada para ello. Mientras que las otras 2 funcionan en vista vertical.
 
 ## 🎯 Características Técnicas
-- **Lenguaje**: Kotlin
+- **Lenguaje**: Kotlin + Java
 - **Minimum SDK**: API 28 (Android 9.0 Pie)
 - **View Binding**: Implementado en todos los ejercicios
 - **Offline First**: Imágenes locales sin dependencia de internet
